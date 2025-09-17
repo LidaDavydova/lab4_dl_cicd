@@ -4,7 +4,7 @@ COPY ./backend/requirements.txt /backend/
 RUN pip install --no-cache-dir --upgrade -r /backend/requirements.txt
 
 COPY ./backend /backend
-COPY ./models/best /models
+COPY ./models/best /models/best
 
 EXPOSE 8000
 

@@ -22,7 +22,7 @@ jobs:
 
       - name: Run Backend and Test Predict Batch
         run: |
-          cd part2/backend
+          cd part2/
           python backend.py &
           BACKEND_PID=$!
 
